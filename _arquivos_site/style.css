@@ -16,7 +16,7 @@ p{
 figure.foto_legenda{
     position: relative;/* Posição Relativa ao Código HTML. Posição Relativa ao Local em Que Está no Código HTML */
     width: 400px;
-    border: 5px solid white; /* Borda Da Imagem */
+    border: 5px solid white; /* Borda Da Imagem (foto legenda) */
     box-shadow: 1px 1px 4px black;
 }
 
