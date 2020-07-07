@@ -10,7 +10,14 @@ p{
     text-align: justify;
     text-indent: 2cm
 }
- 
+a{
+    color:black;
+    transition: color 1s;
+}
+a:hover{
+    color: dimgray;
+}
+
 /* Formatação de Imagens com Legenda */
 
 figure.foto_legenda{
@@ -42,4 +49,46 @@ figure.foto_legenda:hover figcaption{/*Define O Que Acontece Ao Passar O Mouse S
 
     opacity: 1;/*Ao Passar O Mouse A Opacidade Vira 1. A Legenda Passa de Transparente Para Translucido */
 
-} 
+}
+
+/* Formatação de Menus */
+
+nav#menu {
+    display: block; /* Transforma o Nav menu em um bloco que pode flutuar sobre a tela e pode ficar sobre outros elementos */
+    position: relative; 
+}
+
+nav#menu ul{
+    list-style-type: none;/* Retira os Marcadores da lista (retira as bolinhas) */
+    text-transform: uppercase;/* Coloca todo o texto em letras maiusculas */
+    position: fixed;
+    top: -20px;
+    left: 800px;
+}
+
+nav#menu li{
+    display: inline-block; /* define os elementos da lista como blocos e os coloca na mesma linha */
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color:#606060;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: black;
+    transition: color 1s;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
