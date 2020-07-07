@@ -1,3 +1,8 @@
+body{
+    font-family: sans-serif;
+    margin-left: 5mm;
+    margin-right: 1cm;
+}
 p{
     text-align: justify;
     text-indent: 2cm
