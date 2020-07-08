@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 body{
-    font-family: sans-serif;
     background-color: #dddddd;
     color: rgba(0, 0, 0, 0.8);
 }
@@ -19,9 +18,30 @@ p{
     text-indent: 2cm
 }
 header#cabecalho img#logo{
+    width: 200px;
     position: absolute;
     left: 990px;
-    top: 40px;
+    top: 60px;
+}
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 200px;
+    background: url("_imagens/logo_fundo_removido_micro.png") no-repeat 0px 80px;
+}
+header#cabecalho h1{
+    font-family: sans-serif;
+    font-size: 30pt;
+    color:#606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+    font-family: Arial, sans-serif;
+    color: rgb(163, 163, 163);
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
 }
 a{
     color:black;
