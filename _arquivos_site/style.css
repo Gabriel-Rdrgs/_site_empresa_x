@@ -1,5 +1,6 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 body{
     background-color: #dddddd;
     color: rgba(0, 0, 0, 0.8);
@@ -29,7 +30,7 @@ header#cabecalho{
     background: url("_imagens/logo_fundo_removido_micro.png") no-repeat 0px 80px;
 }
 header#cabecalho h1{
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 30pt;
     color:#606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
@@ -37,7 +38,7 @@ header#cabecalho h1{
     margin-bottom: 0px;
 }
 header#cabecalho h2{
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: rgb(163, 163, 163);
     font-size: 15pt;
     padding: 0px;
@@ -124,4 +125,64 @@ nav#menu a{
 nav#menu a:hover{
     color: whitesmoke;
     text-decoration: underline;
+}
+
+/* Formatação do Corpo do Texto */
+
+section#corpo{
+    display: block;
+    width: 570px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
+}
+table#conhecimentos{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#conhecimentos td{
+    border: 1px solid #606060;
+    padding: 8px;
+    text-align: center;
+}
+
+table#conhecimentos tr.cinza{
+    background-color: #606060;
+    color: white;
+}
+table#conhecimentos tr.silver{
+    background-color: silver;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+table#conhecimentos caption{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#conhecimentos caption span{
+    display: block;
+    float: right;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+aside#lateral{
+    display: block;
+    width: 400px;
+    float: right;
+}
+aside#lateral h3{
+    text-align: center;
+}
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p{
+    text-align: center;
 }
