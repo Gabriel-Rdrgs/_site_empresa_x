@@ -115,13 +115,13 @@ nav#menu li:hover{
 }
 
 nav#menu h1{
-    display: none;
+    display: none; /* 'Desaparece' com o h1 presente no nav#menu */
 }
 
 nav#menu a{
     color: black;
     transition: color 1s;
-    text-decoration: none;
+    text-decoration: none; /* Retira toda decoração do texto do tipo underline, overline entre outros */
 }
 
 nav#menu a:hover{
@@ -134,7 +134,7 @@ nav#menu a:hover{
 section#corpo{
     display: block;
     width: 570px;
-    float: left;
+    float: left; /* Permite que o texto flutue por sobre a tela e se desloque para a esquerda */
     border-right: 1px solid #606060;
     padding-right: 20px;
 }
